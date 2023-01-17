@@ -2,7 +2,9 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-template: '1<router-outlet></router-outlet>',
+template:`
+<app-title title="Olá Mundo"></app-title>
+1<router-outlet></router-outlet>` ,
 })
 export class AppComponent implements OnInit{
  constructor(){}
