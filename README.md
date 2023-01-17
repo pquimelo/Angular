@@ -1,2 +1,1 @@
-# Angular
-Aprendendo Angular
+Estudando e  aprendendo  Angular 2+
