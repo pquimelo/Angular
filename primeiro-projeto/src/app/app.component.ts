@@ -6,6 +6,8 @@ import {  Component,  OnInit } from '@angular/core';
   template: `
   <app-data-binding></app-data-binding>
   <app-diretivas-estruturais></app-diretivas-estruturais>
+
+  <app-new-component></app-new-component>
 <router-outlet></router-outlet>`,
 })
 export class AppComponent implements OnInit {

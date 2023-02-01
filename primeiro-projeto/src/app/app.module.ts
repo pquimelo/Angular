@@ -7,6 +7,7 @@ import { TitleComponent } from './title/title.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 
 import { DiretivasEstruturaisComponent } from './diretivas-estruturais/diretivas-estruturais.component';
+import { SharedModule } from './shared/shared.module';
 
 import { FormsModule } from '@angular/forms';
 
@@ -21,7 +22,9 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    SharedModule,
     FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
